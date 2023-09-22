@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
 class Base:
-'''represent of base of oo.p'''
+    '''Represent of base of oop.'''
 
- __nb_objects = 0
+    __nb_objects = 0
 
 def __init__(self, id=None):
     if id is not None:
-            self.id = id
-        else:
-            Base.__nb_objects += 1
-            self.id = Base.__nb_objects
+        self.id = id
+    else:
+        Base.__nb_objects += 1
+        self.id = Base.__nb_objects
 
