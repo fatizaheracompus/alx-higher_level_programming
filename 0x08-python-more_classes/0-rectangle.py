@@ -4,8 +4,5 @@ Define an empty class Rectangle
 """
 
 class Rectangle:
-"""
-Empty class of a Rectangle
-"""
-
-pass
+    """Empty representation of a Rectangle"""
+    pass
