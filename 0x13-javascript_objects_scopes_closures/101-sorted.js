@@ -12,6 +12,6 @@ for (const i in valsUniq) {
       list.unshift(totalist[f][0]);
     }
   }
-  newDict[valsUniq[f]] = list;
+  newDict[valsUniq[i]] = list;
 }
 console.log(newDict);
